@@ -1,4 +1,6 @@
 {
+  "name":"aws-lambda-html-pdf",
+  "version":"0.0.1",
   "dependencies": {
     "aws-sdk": "^2.63.0",
     "html-pdf": "^2.1.0"
