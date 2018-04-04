@@ -5,7 +5,7 @@ var AWS = require('aws-sdk');
 process.env['PATH'] = process.env['PATH'] + ':' + process.env['LAMBDA_TASK_ROOT'];
 
 var options = { format: 'Letter', phantomPath: './phantomjs_lambda/phantomjs_linux-x86_64' };
-var S3config = { bucketName: 'your-bucket' }; //Change to your bucket name
+var S3config = { bucketName: 'insight-calculator-pdf' }; //Change to your bucket name
 
 exports.handler = function(event, context, callback) {
   //Get the values from the request
